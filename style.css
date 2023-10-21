@@ -1,0 +1,161 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+}
+.navbar{
+    text-align: right;
+    background-color: rgb(0, 123, 255);   
+    width: 1506px;
+    height: 50px;
+    margin-top: 0;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.tag{
+    margin-right: 70px;
+    
+}
+.tag li{
+    float: right;
+    list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+    align-items: center;
+    margin: 5px;
+    width: 50px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: white;
+    color: rgb(0, 123, 255);
+}
+#home{
+
+    display: none;
+}
+.home{  
+    width: 100%;
+    min-height: 89vh;
+    display: flex;
+    background: url(/HEALTHCARE/view/img/bg.png);
+    flex-wrap: wrap;
+    background-size: 20px 40px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 1rem;
+}
+.container{  
+    padding: 5px; 
+    height: 150px;
+    width: 350px;
+    margin-left: 110px;
+    margin-top: -250px;
+    /* text-align: center; */
+    /* text-align: justify; */
+}
+.container h2{
+    font-size: 38px;
+    
+}
+.container h6{
+    margin-left: 40px;
+    font-size: 12px;
+    color: rgb(60, 60, 60);
+}
+.container button{
+    margin-top: 10px;
+    border: transparent;
+    width: 100px;
+    height: 30px;
+    background: rgb(0, 123, 255);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 161px;
+    height: 40px;
+}
+
+.appointment{
+    /* display: none; */
+    width: 100%;
+    min-height: 89vh;
+    background: url(/HEALTHCARE/view/img/bg.png);
+    flex-wrap: wrap;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 1rem;
+}
+.form{
+    margin-top: -320px;
+    padding: 30px;
+    margin-left: 500px;
+    text-align: center;
+    /* border: solid black 2px; */
+   
+    width: 300px;
+    width: 500px;
+}
+.form h3{
+  font-size: 25px;
+}
+.form-control{
+    width: 400px;
+    height: 40px;
+    margin: 10px;
+    border: solid black .4px;
+    border-radius: 4px;
+    padding: 4px;
+}
+.form button{
+    border: transparent;
+    color: rgb(255, 255, 255);
+    background:rgb(0, 123, 255);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.contacts{
+    display: none;
+    width: 100%;
+    min-height: 89.2vh;
+   background: rgb(236, 236, 236);
+    flex-wrap: wrap;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 1rem; 
+}
+.contacts h2{
+    text-align: center;
+}
+.contact{
+    height: 500px;
+
+}
+.contain{
+    text-align: center;
+    margin-top: 100PX;
+    margin-left:125px;
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+.contain img{
+    width: 100px;
+
+    
+}
